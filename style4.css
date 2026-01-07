@@ -1,19 +1,21 @@
 header{ 
     display: flex;
     justify-content:space-between;
-}
+      }
+
 .menu{ 
       display: flex;
       justify-content: space-between;
       background-color: rgb(255, 255, 255);
       width: 600px;
       align-items: center
-    }
+     }
 
 a{
     text-decoration: none ;
     color: green
  }
+
  .box1{ 
     background-color: rgb(255, 255, 255);
     color:green;
@@ -22,41 +24,70 @@ a{
     align-items: center;
   
       }
+
  .boxmoyenne{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:transparent: 200px;
-     }
-    .para1{ 
+    
+            }
+
+.para1{ 
         background-color:transparent;
         height: 100px;width: 500px;
-     }
-    .para2{
+        font-size:15px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: oblique;
+       
+      }
+
+.para2{
          background-color:transparent;
         height: 100px;width: 500px;
-
-     }
+        font-size: 15px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: oblique;
+      }
 
      
-  .boxfinal{background-color: transparent;
+.boxfinal{
+   background-color: transparent;
     height: 500px;;
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     gap: 20px;
-    border-radius: 10px;
-     }
-  .section1{
-    background-color: aqua;width: 300px;height: 300px;border-radius: 15px;
-   
-
+    border-radius: 10px
+    ;font-size: 15px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+          }
+   .boxfinal select{
+    border: none;
+    margin-left: 30px;
+    padding: 10px 30px ;
+    background: none;
+    font-size: 19px;
+    margin-top: 30px;
    }
-  .section2{
-    background-color: blanchedalmond;width:300px;height: 300px;border-radius: 15px
 
+   .boxfinal p{ 
+    font-size: 18px;
    }
-  .section3{
-    background-color: aquamarine;width:300px;height: 300px;border-radius: 15px
+  .section1{background-color: rgb(180, 240, 240);width: 300px;height: 350px;border-radius: 15px ;display: flex;justify-content: center;flex-direction: column;align-items: center;padding:15px }
+  .section2{background-color: blanchedalmond;width:300px;height: 350px;border-radius: 15px ;display: flex;justify-content: center;flex-direction: column;align-items: center;padding:15px ;}
+  .section3{background-color: aquamarine;width:300px;height: 350px;border-radius: 15px;display: flex;justify-content: center;flex-direction: column;align-items: center;padding: 15px;}
 
-   }
+ .fin{ background-color: rgb(177, 250, 250);height: 600px;display: flex;justify-content: center;}
+
+ .hp{ background-color:transparent;height: 400px;width: 500px ;padding: 90px 90px;}
+ .carraux{background-color:transparent;display: flex;}
+
+ .sect1{ background-color:transparent;width:250px;display: flex;justify-content:space-evenly ;flex-direction: column;}
+ .sect2{ background-color:transparent;width:250px;display: flex;justify-content:space-evenly;flex-direction: column;}
+ .hp1{ background-color:aliceblue;width: 200px;height: 250px;display: flex;flex-direction: column; border-radius: 10%;font-size:smaller;padding:10px 10px;}
+ .hp2{ background-color:aliceblue;width: 200px;height: 250px;display: flex;flex-direction: column; border-radius: 10%;font-size:smaller;padding:10px 10px}
+ .hp3{ background-color: aliceblue;width: 200px;height: 250px;display: flex;flex-direction: column; border-radius: 10%;font-size:smaller;padding:10px 10px}
+ .hp4{ background-color:aliceblue;width: 200px;height: 250px;display: flex;flex-direction: column; border-radius: 10%;font-size:smaller;padding:10px 10px}
+
+ .fin2{background-color:rgb(255, 255, 255);height: 400px;width: 50%;;display: flex;justify-content:center;align-items:center;flex-direction: column;margin-left: 25%;}
+
